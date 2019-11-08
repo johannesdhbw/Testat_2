@@ -1,4 +1,5 @@
-﻿  vector.cpp
+﻿  pch.cpp
+  vector.cpp
 c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\memory(2075): error C2528: "abstract declarator": Zeiger auf Verweis ungültig
   c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\memory(2132): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "std::default_delete<_Ty>", die kompiliert wird.
           with
@@ -11,23 +12,23 @@ c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.
               _Ty=int &,
               _Dx=std::default_delete<int &>
           ]
-  c:\users\johan\dhbw\software\3.semester\aufgabe_2\vector\vector\tvector.h(89): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "std::unique_ptr<T &,std::default_delete<_Ty>>", die kompiliert wird.
+  c:\users\johan\dhbw\software\3.semester\aufgabe_2_github\vector\vector\tvector.h(89): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "std::unique_ptr<T &,std::default_delete<_Ty>>", die kompiliert wird.
           with
           [
               T=int,
               _Ty=int &
           ]
-  c:\users\johan\dhbw\software\3.semester\aufgabe_2\vector\vector\tvector.h(88): note: Bei der Kompilierung von Klasse Vorlage der T &TVector<T>::at(int)-Memberfunktion
+  c:\users\johan\dhbw\software\3.semester\aufgabe_2_github\vector\vector\tvector.h(88): note: Bei der Kompilierung von Klasse Vorlage der T &TVector<T>::at(int)-Memberfunktion
           with
           [
               T=int
           ]
-  c:\users\johan\dhbw\software\3.semester\aufgabe_2\vector\vector\vector.cpp(20): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "T &TVector<T>::at(int)".
+  c:\users\johan\dhbw\software\3.semester\aufgabe_2_github\vector\vector\vector.cpp(20): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "T &TVector<T>::at(int)".
           with
           [
               T=int
           ]
-  c:\users\johan\dhbw\software\3.semester\aufgabe_2\vector\vector\vector.cpp(16): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "TVector<int>", die kompiliert wird.
+  c:\users\johan\dhbw\software\3.semester\aufgabe_2_github\vector\vector\vector.cpp(16): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "TVector<int>", die kompiliert wird.
 c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\memory(2075): error C2528: "<template-parameter>": Zeiger auf Verweis ungültig
 c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\memory(2080): error C2528: "_Ptr": Zeiger auf Verweis ungültig
 c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\memory(2115): error C2528: "type": Zeiger auf Verweis ungültig
@@ -41,7 +42,7 @@ c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.
 c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\memory(2255): error C2528: "abstract declarator": Zeiger auf Verweis ungültig
 c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\memory(2255): error C2528: "<template-parameter>": Zeiger auf Verweis ungültig
 c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\memory(2267): error C2528: "<template-parameter>": Zeiger auf Verweis ungültig
-c:\users\johan\dhbw\software\3.semester\aufgabe_2\vector\vector\tvector.h(89): error C2664: "std::unique_ptr<T &,std::default_delete<_Ty>>::unique_ptr(const std::unique_ptr<_Ty,std::default_delete<_Ty>> &)" : Konvertierung von Argument 1 von "T *" in "std::nullptr_t" nicht möglich
+c:\users\johan\dhbw\software\3.semester\aufgabe_2_github\vector\vector\tvector.h(89): error C2664: "std::unique_ptr<T &,std::default_delete<_Ty>>::unique_ptr(const std::unique_ptr<_Ty,std::default_delete<_Ty>> &)" : Konvertierung von Argument 1 von "T *" in "std::nullptr_t" nicht möglich
           with
           [
               T=int,
@@ -51,8 +52,8 @@ c:\users\johan\dhbw\software\3.semester\aufgabe_2\vector\vector\tvector.h(89): e
           [
               T=int
           ]
-  c:\users\johan\dhbw\software\3.semester\aufgabe_2\vector\vector\tvector.h(89): note: "nullptr" kann nur in Zeiger- oder Handletypen konvertiert werden.
-c:\users\johan\dhbw\software\3.semester\aufgabe_2\vector\vector\tvector.h(102): error C2440: "return": "std::unique_ptr<T &,std::default_delete<_Ty>>" kann nicht in "T &" konvertiert werden
+  c:\users\johan\dhbw\software\3.semester\aufgabe_2_github\vector\vector\tvector.h(89): note: "nullptr" kann nur in Zeiger- oder Handletypen konvertiert werden.
+c:\users\johan\dhbw\software\3.semester\aufgabe_2_github\vector\vector\tvector.h(102): error C2440: "return": "std::unique_ptr<T &,std::default_delete<_Ty>>" kann nicht in "T &" konvertiert werden
           with
           [
               T=int,

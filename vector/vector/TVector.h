@@ -86,7 +86,7 @@ void TVector<T>::push_back(int value)
 template<class T>
 T& TVector<T>::at(int pos)
 {
-	std::unique_ptr<T&> uniquedata(new T(m_data[pos]));
+	//std::unique_ptr<T&> uniquedata(new T(m_data[pos]));
 	// error if invalid position
 	/*
 	if (pos < 0 || pos > m_capacity - 1)
